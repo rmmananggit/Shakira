@@ -1,0 +1,141 @@
+:root{
+    --montserrat:'Montserrat', sans-serif;
+    --nunito:'Nunito', sans-serif;
+
+    --light:#fff;
+    --hover:#464662;
+    --bg: #212143;
+    --h1:#212143;
+    --h1-blur:#212143cb;
+    --text:#BDBDBD;
+	--text-black:#05051d;
+    --num:#146ADC; 
+    --cards:#A1BEEA;
+    --bg-light:#FFFFFF;
+    --bg-dark:#F5F5F5;
+    --bg-darker:#B5B5C0;
+	--tb-dark:#dddde2;
+	--tb-ligt:#F5F5F5;
+    --yellow:#F0B732;
+	--staff:#A1BEEA;
+	--faculty:#212143;
+	--hr:#0066ff;
+	--red:#ff0022;
+    --prof:#b0b0bd;
+}
+.profile-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+/* Sidebar Styles */
+.sidebar2 {
+    width: 25%;
+    min-height: 50vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    /* border-radius: 20px; */
+    /* border-right: 20px; */
+    border-radius: 20px 0 0 20px;
+}
+.profile-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.sidebar-links {
+    padding: 0;
+}
+
+.info-section,  .edit-profile {
+    margin-bottom: 1px;
+}
+
+.info-section p{
+    margin: 1px 0;
+    padding: 10px 10px;
+}
+.edit-profile{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+}
+.edit-profile a {
+    padding: 10px 10px;
+    color: var(--h1);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.edit-profile a:hover {
+  border-radius: 5px;
+    color: var(--num);
+}
+/* Main Content Styles */
+.main-content {
+    width: 75%;
+    padding: 20px;
+    background: var(--prof);
+    border-radius: 0 20px 20px 0;
+}
+
+
+.profile-form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.btn-pass{
+    width: 150px; height: auto;
+    border-radius: 5px;
+    background: var(--bg);
+    padding: .5rem .5rem;
+    color: var(--text);
+    font-family: var(--nunito);
+    font-weight: 700;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.btn-pass:hover{
+    background: var(--hover);
+    color: var(--light);
+}
+.form-section {
+    width: 48%;
+   
+}
+
+.form-section h3 {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"]:focus, input[type="date"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
