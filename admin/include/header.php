@@ -13,7 +13,9 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../assets/style.css">
     <link rel="icon" type="image/png" sizes="96x96" href="images/icon.png">
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/2.1.8/css/dataTables.bootstrap4.css" rel="stylesheet">
+
     <title>Ucheque</title>
 </head>
 <body>

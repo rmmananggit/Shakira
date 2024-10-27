@@ -9,6 +9,12 @@
                 </a>
             </li>
             <li>
+                <a href="./users.php">
+                <i class='bx bx-user' ></i>
+                    <span>Users</span>
+                </a>
+            </li>
+            <li>
                 <a href="/faculty/f_itl.html">
                     <i class="bx bxs-doughnut-chart"></i>
                     <span>My ITL</span>
